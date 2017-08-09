@@ -39,8 +39,6 @@ bool isCheaper(Monster * a, Monster * b) {
     return a->cost < b->cost;
 }
 
-    }
-}
 
 // TODO: Implement MAX AOE DAmage to make sure nothing gets revived
 void simulateFight(FightResult & result, Army & left, Army & right, bool verbose = false) {
